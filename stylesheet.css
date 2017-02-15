@@ -84,6 +84,11 @@ footer {
     
 }
 
+/*Map location*/
+#map iframe {
+    float: center;
+}
+
 /*Media Queries*/
 @media(min-width: 320px) and (max-width:568px) {
   #menu ul {
