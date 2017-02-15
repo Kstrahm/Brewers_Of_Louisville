@@ -1,0 +1,98 @@
+/* Navigation bar CSS*/
+header {
+    font-size: 200%;
+    background-color: #C1C1C1;
+    text-align: center;   
+    border: solid 2px;
+}
+
+body {
+    background-color: #2C4251;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #c1c1c1;
+    width: 92%;
+    display: table;
+    border: solid 2px;
+}
+
+/* Navigation list items CSS */
+#nav li  {
+    padding: 8px;
+    background-color: #2c4251;
+    display: table-cell;
+    width: auto;
+    text-align: center;  
+}
+
+/* Change color of navigation bar links */
+#nav li a {
+    color: #ffffff;
+    
+}
+
+/* Change color of navigation bar with hover */
+#nav li a:hover {
+    background-color: #D16666;
+}
+
+
+/* set up two columns for UL */
+#brewery ul{
+ list-style-type: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+/*edit titles for each brewery*/
+#brewery li{
+  line-height:1.5em;
+  border: 2px #D16666;
+  float:left;
+  display:inline-block;
+  width:100%;
+  font-size: 150%;
+  color: #ffffff;
+}
+
+/*edit text for each brewery*/
+p {
+    color: aliceblue;
+}
+
+/*edit image sizes */
+.container img{
+    width: 100%;
+    height: auto;
+}
+
+.brewery {
+    background-color: #526470;
+    padding: 5px;
+}
+
+footer {
+    color:aliceblue;
+    float: right;
+    font-size: 90%
+    
+}
+
+/*Media Queries*/
+@media(min-width: 320px) and (max-width:568px) {
+  #menu ul {
+    display:none;
+  }
+}
+
+@media(min-width: 568px){
+  #menu select, #menu button {
+    display:none;
+  }
+}
