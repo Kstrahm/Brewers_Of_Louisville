@@ -1,28 +1,41 @@
 <doc type = html>
+<html>
 <title>Contact the Brewers</title>
 <body class="body">
  <head>
      <link rel = "stylesheet" type = "text/css" href = "stylesheet.css" />
      <link rel = "normalize" type = "text/css" href = "normalize.css"/>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   </head>
     <header><img src="skyline.jpg" alt="Skyline"> Breweries of Louisville</header>
-            <div id="nav">
+        <div id="nav">
                 <ul>
                     <li class="home"><a href="index.html">Home</a></li>
                     <li class="map"><a href="map.html">Map</a></li>
                     <li class="contact"><a href="contact.html">Contact</a></li>
                 </ul>
-        <div class='login'>
-            <p>Sign Up For Our Mailing List</p>
-            <div class='login info'>
-                <input id='Full Name' placeholder="Full Name" type="text">
-                <input id='Email' placeholder="Email" type="text">
-
             </div>
+    <div id="container" class="container">
+            <label><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+            <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            <input type="checkbox" checked="checked"> Remember me
+                
+
+        <div class="clearfix">
+          <button type="button"  class="cancelbtn">Cancel</button>
+          <button type="submit" class="signupbtn">Sign Up</button>
         </div>
+            </div>
  <footer>
     Made by Kyle Strahm
     </footer>
 </body>
+</html>
 </doc>
 

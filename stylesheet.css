@@ -9,7 +9,7 @@ header {
 /*header skyline image*/
 header img {
     height: auto;
-    width:80%;
+    width:100%;
     padding: 0;
     border: 1px solid;
     background-size: 100%;
@@ -58,18 +58,6 @@ body {
 }
 
 
-/* set up two columns for UL */
-#brewery ul{
- list-style-type: none;
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
-              column-count: 2;
-/*media query to change to one column at certain screen width*/    
-  -webkit-column-width: 200px;
-     -moz-column-width: 200px;
-          column-width: 200px;
-}
 
 /*edit titles for each brewery*/
 #brewery li{
@@ -84,9 +72,22 @@ body {
 }
 
 /*edit text for each brewery*/
-p {
+#brewery p {
+    float: center;
+    padding: 5px ;
     color: aliceblue;
+    margin-right: 15px;
 }
+
+/*text on contact page*/
+.login p {
+    float: center;
+    padding: 5px ;
+    color: aliceblue;
+    margin-right: 15px;
+    font-size: 200%;
+}
+
 
 /*edit image sizes on index page*/
 .container img{
@@ -114,11 +115,20 @@ footer {
     height: 400;
 }
 
+/*contact.html sign up form css*/
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
 
 
 /*Media Queries*/
-
-
 @media(min-width: 320px) and (max-width:568px) {
   #menu ul {
     display:none;
@@ -131,6 +141,16 @@ footer {
   }
 }
 
-
-
+/* set up two columns for UL */
+#brewery ul{
+ list-style-type: none;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+              column-count: 3;
+/*media query to change to two or one columns at certain screen width*/    
+  -webkit-column-width: 200px;
+     -moz-column-width: 200px;
+          column-width: 200px;
+}
 

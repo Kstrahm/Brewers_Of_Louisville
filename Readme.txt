@@ -1,14 +1,12 @@
 Hello,
 
-This is the readme for my final project.  This project is for Code Louisville.  I am also using it for my own reference for the time being.
+This is the readme for my final project.  This project is for Code Louisville.  It is a website with a list of some breweries here in Louisville, KY.  
 
-Goals for tomorrow
-    create div including header and nav bar
-    set skyline.jpg is background for div
+To Run:
+1. Open index.html
+2. Explore links from the nav bar
 
-CSS Colors used
-#C1C1C1
-#2C4251
-#D16666
-#B6C649
-#FFFFFF
+Goals for today
+    add jquery event under contact.html button element
+    add shadowbox view for images
+    create an additional media query
