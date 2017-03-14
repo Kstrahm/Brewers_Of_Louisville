@@ -115,15 +115,46 @@ footer {
     height: 400;
 }
 
+/*text above randomizer*/
+#randomizer p {
+    font-size: 40px;
+    color: aliceblue;
+    
+}
+
+
 /*contact.html sign up form css*/
+/*set up the sign up/cancel button*/
 button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #aliceblue;
+    color: #000000;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 100%;
+    border-radius: 25px;
+}
+
+/*set up the input fields for email and password*/
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/*set up the button to be side by side*/
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/*padding for sign up form*/
+.container {
+    padding: 20px;
 }
 
 
