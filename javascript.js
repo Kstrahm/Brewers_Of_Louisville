@@ -1,4 +1,11 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+var button = document.getElementById("button1");
+var myarray = ["Against The Grain",
+               "Apocalypse",
+               "Blue Grass Brewing Company",
+               "Falls City",
+               "Goodwood",
+              ];
 
-options = $("#sel > option")
-options[Math.floor(Math.random() * options.length)].selected = true
+button.onclick = function() {
+    alert(myarray[Math.floor(Math.random() * myarray.length)]);
+};
